@@ -36,7 +36,7 @@
     "babel-plugin-import-glob-array": "0.2.0",
     "dotenv": "8.2.0",
     "gray-matter": "4.0.2",
-    "next": "9.4.4",
+    "next": "12.1.0",
     "nuka-carousel": "4.7.0",
     "react": "16.13.1",
     "react-device-detect": "1.13.1",
