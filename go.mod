@@ -23,8 +23,8 @@ require (
 	github.com/elazarl/go-bindata-assetfs v0.0.0-20160803192304-e1a2a7ec64b0
 	github.com/envoyproxy/go-control-plane v0.9.5
 	github.com/go-ole/go-ole v1.2.1 // indirect
-	github.com/gogo/protobuf v1.2.2-0.20190723190241-65acae22fc9d
-	github.com/golang/protobuf v1.3.5
+	github.com/gogo/protobuf v1.3.1
+	github.com/golang/protobuf v1.4.3
 	github.com/google/go-querystring v1.0.0 // indirect
 	github.com/google/gofuzz v1.1.0
 	github.com/google/tcpproxy v0.0.0-20180808230851-dfa16c61dad2
@@ -69,30 +69,27 @@ require (
 	github.com/mitchellh/pointerstructure v1.0.0
 	github.com/mitchellh/reflectwalk v1.0.1
 	github.com/patrickmn/go-cache v2.1.0+incompatible
-	github.com/pkg/errors v0.8.1
+	github.com/pkg/errors v0.9.1
 	github.com/pquerna/cachecontrol v0.0.0-20180517163645-1555304b9b35 // indirect
 	github.com/prometheus/client_golang v1.4.0
 	github.com/rboyer/safeio v0.2.1
 	github.com/ryanuber/columnize v2.1.0+incompatible
 	github.com/shirou/gopsutil v2.20.6-0.20200630091542-01afd763e6c0+incompatible
-	github.com/stretchr/testify v1.5.1
-	go.opencensus.io v0.22.0 // indirect
+	github.com/stretchr/testify v1.6.1
 	go.uber.org/goleak v1.0.0
-	golang.org/x/crypto v0.0.0-20200604202706-70a84ac30bf9
-	golang.org/x/net v0.0.0-20200226121028-0de0cce0169b
-	golang.org/x/oauth2 v0.0.0-20190604053449-0f29369cfe45
+	golang.org/x/crypto v0.0.0-20201002170205-7f63de1d35b0
+	golang.org/x/net v0.0.0-20201110031124-69a78807bb2b
+	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
 	golang.org/x/sync v0.0.0-20200317015054-43a5402ce75a
-	golang.org/x/sys v0.0.0-20200625212154-ddb9806d33ae
-	golang.org/x/time v0.0.0-20200416051211-89c76fbcd5d1
+	golang.org/x/sys v0.0.0-20201112073958-5cba982894dd
+	golang.org/x/time v0.0.0-20200630173020-3af7569d3a1e
 	golang.org/x/tools v0.0.0-20200513154647-78b527d18275 // indirect
-	google.golang.org/api v0.9.0 // indirect
-	google.golang.org/appengine v1.6.0 // indirect
-	google.golang.org/genproto v0.0.0-20190819201941-24fa4b261c55
-	google.golang.org/grpc v1.25.1
+	google.golang.org/genproto v0.0.0-20200526211855-cb27e3aa2013
+	google.golang.org/grpc v1.27.1
 	gopkg.in/square/go-jose.v2 v2.4.1
-	k8s.io/api v0.16.9
-	k8s.io/apimachinery v0.16.9
-	k8s.io/client-go v0.16.9
+	k8s.io/api v0.20.0
+	k8s.io/apimachinery v0.20.0
+	k8s.io/client-go v0.20.0
 )
 
 replace istio.io/gogo-genproto v0.0.0-20190124151557-6d926a6e6feb => github.com/istio/gogo-genproto v0.0.0-20190124151557-6d926a6e6feb
